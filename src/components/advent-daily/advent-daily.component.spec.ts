@@ -8,10 +8,9 @@ describe('AdventDailyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AdventDailyComponent]
-    })
-    .compileComponents();
-    
+      imports: [AdventDailyComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(AdventDailyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
